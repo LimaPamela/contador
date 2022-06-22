@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400&family=Patrick+Hand&family=Poppins:wght@200&family=Roboto:wght@100&display=swap');
+
+* {
+    font-family: "Comfortaa";
+}
+
+h1 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 28px;
+}
+
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #f7fd91;
+}
+
+button {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 2px solid #031634;
+    background-color: #261323;
+    color: #FFFFFF;
+    font-size: 16pt;
+    font-weight: 600;
+    text-align: center;
+    cursor: pointer;
+}
+
+#counter {
+    display: flex;
+}
+
+#currentNumber {
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+    font-size: 20px;
+}
